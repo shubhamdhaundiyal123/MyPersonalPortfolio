@@ -37,11 +37,7 @@ export default function Hero() {
             Node.js, TypeScript and MongoDB.
           </p>
 
-          <div className="mt-10 flex gap-5">
-            <button className="bg-blue-600 px-7 py-4 rounded-xl hover:bg-blue-700 transition">
-              View Projects
-            </button>
-
+          <div className="mt-10 flex gap-5 mb-4">
             <button className="border border-gray-500 px-7 py-4 rounded-xl hover:bg-white hover:text-black transition">
               Download Resume
             </button>
@@ -58,11 +54,11 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="flex justify-center"
         >
-          <div className="relative">
+          <div className="relative mt-7">
             <div className="absolute -inset-4 rounded-full bg-blue-500 blur-3xl opacity-30"></div>
 
             <Image
-              src="/profile.png"
+              src="/profile1.png"
               alt="profile"
               width={420}
               height={420}
