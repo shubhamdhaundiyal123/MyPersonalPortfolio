@@ -80,7 +80,7 @@ export default function ContactInfo() {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/YOUR-LINKEDIN"
+          href="https://www.linkedin.com/in/shubham-dhaundiyal-242617188"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-xl border border-white/10 bg-[#111827] p-6 transition hover:border-blue-500"

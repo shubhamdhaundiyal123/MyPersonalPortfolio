@@ -26,7 +26,7 @@ export default function ProjectCard({ project }: Props) {
       className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl hover:border-blue-500 transition-all duration-300"
     >
       {/* Project Image */}
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-64 overflow-hidden mt-4 rounded-2xl">
         <Image
           src={project.image}
           alt={project.title}
