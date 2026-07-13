@@ -76,12 +76,24 @@ export default function Hero() {
         >
           <p className="text-blue-400 font-semibold mb-5">👋 Hello, I'm</p>
 
-          <h1 className="text-6xl font-black leading-tight">
+          <h1
+            className="
+              text-[2.3rem]
+              leading-none
+              font-black
+              tracking-tight
+
+              sm:text-5xl
+              sm:leading-tight
+
+              md:text-6xl
+              lg:text-7xl
+            "
+          >
             SHUBHAM
             <br />
             DHAUNDIYAL
           </h1>
-
           <div className="mt-8">
             <Typing />
           </div>
@@ -163,7 +175,7 @@ export default function Hero() {
           className="flex justify-center"
         >
           <div className="relative mt-7">
-            <div className="absolute -inset-4 rounded-full bg-blue-500 blur-3xl opacity-30" />
+            {/* <div className="absolute -inset-4 rounded-full bg-blue-500 blur-3xl opacity-30" /> */}
 
             <Image
               src="/profile1.png"
