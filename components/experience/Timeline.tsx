@@ -11,7 +11,7 @@ export default function Timeline() {
         <TimelineCard
           duration="May 2024 - Present"
           title="MERN Full Stack Developer"
-          company="Panorama Software Solutions"
+          company="Panorama Software Solutions Pvt Ltd. NOIDA"
           description="Working on enterprise SaaS products with React, Next.js, Node.js, NestJS, AWS and Micro Frontend architecture."
           technologies={[
             "React",
@@ -24,7 +24,7 @@ export default function Timeline() {
           ]}
         />
 
-        <TimelineCard
+        {/* <TimelineCard
           title="BotX"
           description="Developed a configurable Conversational AI SaaS platform with Micro Frontend architecture, security enhancements, caching, scheduler implementation, AWS monitoring, and REST APIs."
           technologies={[
@@ -47,7 +47,7 @@ export default function Timeline() {
           title="HealthConnect"
           description="Built healthcare dashboards, appointment management, JWT authentication, RBAC, secure AWS S3 document uploads, and REST APIs."
           technologies={["React", "Node", "MongoDB", "JWT", "RBAC", "AWS"]}
-        />
+        /> */}
       </div>
     </div>
   );

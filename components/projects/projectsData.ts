@@ -25,7 +25,7 @@ export const projects = [
       "REST APIs",
     ],
 
-    github:"https://github.com/shubhamdhaundiyal123/project",
+    github:"",
 
     live: "",
   },
