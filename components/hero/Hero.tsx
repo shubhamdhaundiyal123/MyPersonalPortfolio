@@ -6,7 +6,6 @@ import { Download } from "lucide-react";
 
 import Typing from "./Typing";
 import Stats from "./Stats";
-import SocialIcons from "./SocialIcons";
 import Background from "./Background";
 
 export default function Hero() {
@@ -149,10 +148,6 @@ export default function Hero() {
               {/* Text */}
               <span className="relative z-10">Download Resume</span>
             </button>
-          </div>
-
-          <div className="mt-8">
-            <SocialIcons />
           </div>
 
           <div className="mt-10">

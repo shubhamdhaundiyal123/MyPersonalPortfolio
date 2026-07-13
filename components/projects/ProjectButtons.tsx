@@ -1,4 +1,5 @@
-import { Github, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 interface Props {
   github: string;
@@ -12,9 +13,10 @@ export default function ProjectButtons({ github, live }: Props) {
         <a
           href={github}
           target="_blank"
+          rel="noopener noreferrer"
           className="rounded-xl border border-white/10 px-5 py-3 flex items-center gap-2 hover:border-blue-500 transition"
         >
-          <Github size={18} />
+          <FaGithub size={18} />
           GitHub
         </a>
       )}
@@ -23,6 +25,7 @@ export default function ProjectButtons({ github, live }: Props) {
         <a
           href={live}
           target="_blank"
+          rel="noopener noreferrer"
           className="rounded-xl bg-blue-600 px-5 py-3 flex items-center gap-2 hover:bg-blue-700 transition"
         >
           <ExternalLink size={18} />

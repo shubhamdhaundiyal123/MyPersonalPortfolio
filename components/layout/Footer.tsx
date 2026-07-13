@@ -1,10 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Mail, ArrowUp } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-
-import SocialIcon from "../ui/SocialIcon";
+import { ArrowUp } from "lucide-react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -54,24 +52,34 @@ export default function Footer() {
           <div>
             <h3 className="mb-6 text-xl font-semibold">Connect</h3>
 
-            <div className="flex gap-4">
-              <SocialIcon
+            <div className="flex gap-5">
+              <a
                 href="https://github.com/shubhamdhaundiyal123"
-                icon={FaGithub}
-                label="GitHub"
-              />
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="text-gray-300 hover:text-blue-500 transition duration-300"
+              >
+                <FaGithub size={24} />
+              </a>
 
-              <SocialIcon
-                href="https://linkedin.com/in/YOUR-LINKEDIN"
-                icon={FaLinkedin}
-                label="LinkedIn"
-              />
+              <a
+                href="https://www.linkedin.com/in/shubham-dhaundiyal-242617188"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-gray-300 hover:text-blue-500 transition duration-300"
+              >
+                <FaLinkedin size={24} />
+              </a>
 
-              <SocialIcon
+              <a
                 href="mailto:shubhamdhaundiyal789@gmail.com"
-                icon={Mail}
-                label="Email"
-              />
+                aria-label="Email"
+                className="text-gray-300 hover:text-blue-500 transition duration-300"
+              >
+                <FaEnvelope size={24} />
+              </a>
             </div>
 
             <button
