@@ -32,14 +32,43 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative isolate min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      className="
+    relative
+    isolate
+    min-h-screen
+    overflow-hidden
+    flex
+    items-center
+    justify-center
+    pt-28
+    sm:pt-32
+    lg:pt-22
+  "
+    >
       {/* Background */}
       <Background />
 
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-600/10 via-purple-600/10 to-cyan-500/10" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl w-full px-8 grid lg:grid-cols-2 gap-20 items-center">
+      <div
+        className="
+          relative
+          z-10
+          mx-auto
+          w-full
+          max-w-7xl
+          px-6
+          sm:px-8
+          grid
+          grid-cols-1
+          lg:grid-cols-2
+          gap-12
+          lg:gap-20
+          items-center
+        "
+      >
         {/* Left */}
         <motion.div
           initial={{ opacity: 0, y: 70 }}
